@@ -37,7 +37,7 @@ function Home() {
             clearInterval(interval);
             window.removeEventListener('scroll', handleScroll);
         };
-    }, []);
+    }, [techStack.length]);
 
     const FloatingElement = ({ delay, position, icon, color }) => (
         <div
